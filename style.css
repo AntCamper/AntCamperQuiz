@@ -1,0 +1,59 @@
+/* D&D Theme */
+body {
+    font-family: 'Cinzel', serif; /* Cinzel looks like a cool D&D style font */
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222; /*color for our quiz container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+button {
+    background-color: #444; /* color for buttons */
+    color: #fff; /* text color*/
+    border: none;
+    padding:10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #666; /* lightens the color of the button when you hover over also lol */
+}
+
+#timer {
+    font-size: 24px;
+    color: #ff3333
+}
+
+#high-scores {
+    margin-top: 20px;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#high-scores h2 {
+    font-size: 24px;
+    margin-bottom: 10;
+}
+
+#high-score-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#high-scores-list li:last-child {
+    border-bottom: none;
+}
