@@ -1,5 +1,5 @@
 # AntCamperQuiz:D&D Edition
-![AntCamper Quiz Homepage](https://ibb.co/N9qDbzp)
+ [AntCamper Quiz Homepage](https://ibb.co/N9qDbzp)
 
 ## About
 
