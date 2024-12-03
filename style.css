@@ -1,18 +1,16 @@
 /* D&D Theme */
 body {
     font-family: 'Cinzel', serif; /* Cinzel looks like a cool D&D style font */
-    background-color: #000;
     color: #fff;
     margin: 0;
     padding: 0;
     height: 100vh; /* Full viewport height */
-    background-image: url('./Dndbackground.jpg'); /* Use your relative path */
-    background-size: cover; /* Make the image cover the whole screen */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent tiling */
 }
 
 .dnd-theme {
+    background-image: url('Dndbackground.jpg'); 
+    background-size: cover; /* Make the image cover the whole screen */
+    background-position: center; /* Center the image */
     display: flex;
     flex-direction: column;
     justify-content: center;
