@@ -1,27 +1,39 @@
 /* D&D Theme */
 body {
-    font-family: 'Cinzel', serif;
-    background-image: url('./Dndbackground.jpg'); /* Cinzel looks like a cool D&D style font */
+    font-family: 'Cinzel', serif; /* Cinzel looks like a cool D&D style font */
     background-color: #000;
     color: #fff;
     margin: 0;
     padding: 0;
+    height: 100vh; /* Full viewport height */
+    background-image: url('./Dndbackground.jpg'); /* Use your relative path */
+    background-size: cover; /* Make the image cover the whole screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+}
+
+.dnd-theme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full height */
 }
 
 #quiz-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #222; /*color for our quiz container */
+    background-color: rgba(34, 34, 34, 0.8); /* Slightly transparent background for quiz container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
 button {
     background-color: #444; /* color for buttons */
-    color: #fff; /* text color*/
+    color: #fff; /* text color */
     border: none;
-    padding:10px 20px;
+    padding: 10px 20px;
     margin: 10px 0;
     cursor: pointer;
     font-size: 16px;
@@ -29,17 +41,17 @@ button {
 }
 
 button:hover {
-    background-color: #666; /* lightens the color of the button when you hover over also lol */
+    background-color: #666; /* lightens the color of the button when you hover over */
 }
 
 #timer {
     font-size: 24px;
-    color: #ff3333
+    color: #ff3333;
 }
 
 #high-scores {
     margin-top: 20px;
-    background-color: #222;
+    background-color: rgba(34, 34, 34, 0.8); /* Slightly transparent background for high scores */
     color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -47,7 +59,7 @@ button:hover {
 
 #high-scores h2 {
     font-size: 24px;
-    margin-bottom: 10;
+    margin-bottom: 10px;
 }
 
 #high-score-list {
