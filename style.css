@@ -1,6 +1,7 @@
 /* D&D Theme */
 body {
-    font-family: 'Cinzel', serif; /* Cinzel looks like a cool D&D style font */
+    font-family: 'Cinzel', serif;
+    background-image: url('./Dndbackground.jpg'); /* Cinzel looks like a cool D&D style font */
     background-color: #000;
     color: #fff;
     margin: 0;
